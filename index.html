@@ -4,9 +4,22 @@
 <head>
     <title> Biro Jasa </title>
     <style>
+       
+
         .whatsapp {
-            display: flex;
-            justify-content: right;
+            position: fixed;
+            right: 25px;
+            overflow: hidden;
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            border: 0;
+            z-index: 9999;
+            transition: .2s;
+            bottom: 25px;
+            background-color: #34af23;
+            cursor: pointer;
+            
         }
 
         .footer {
@@ -21,8 +34,11 @@
 </head>
 
 <body>
-    <a class="whatsapp" href="https://wa.me/" target="_blank"><img
-            src="https://raw.githubusercontent.com/ngalong-ngoding/landingpage-birojasa/d0abb1faa6998b6110c8145d5a6c4084b9f83f94/images/whatsapp.png?token=BENVVHYZ7IPBZEMRUNS43JTJHLR4M"></a>
+    <a class="whatsapp" href="https://wa.me/" target="_blank">
+        <button class ="btn-floating whatsapp">
+        <img src="https://github.com/ngalong-ngoding/landingpage-birojasa/blob/main/images/whatsapp.png?raw=true" >
+        </button>
+    </a>
 
     <footer>
         <!-- footer -->
